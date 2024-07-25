@@ -8,21 +8,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/flex-slider.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl-carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/templatemo-hexashop.css') }}">
 
-    <title>Hexashop Ecommerce HTML CSS Template</title>
+    <title>Ecommerce</title>
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="public/css/font-awesome.css">
-
-    <link rel="stylesheet" href="public/css/templatemo-hexashop.css">
-
-    <link rel="stylesheet" href="public/css/owl-carousel.css">
-
-    <link rel="stylesheet" href="public/css/lightbox.css">
-<!--
+   
 
 TemplateMo 571 Hexashop
 
@@ -52,7 +48,7 @@ https://templatemo.com/tm-571-hexashop
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png">
+                            <img src={{asset("/images/logo.png")}}>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -106,7 +102,7 @@ https://templatemo.com/tm-571-hexashop
                                     <a href="#">Purchase Now!</a>
                                 </div>
                             </div>
-                            <img src="public/images/left-banner-image.jpg" alt="">
+                            <img src="{{asset("/images/left-banner-image.jpg")}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -129,7 +125,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="public/images/baner-right-image-01.jpg">
+                                        <img src={{asset("/images/baner-right-image-01.jpg")}}>
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +145,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="public/images/baner-right-image-02.jpg">
+                                        <img src={{asset("/images/baner-right-image-02.jpg")}}>
                                     </div>
                                 </div>
                             </div>
@@ -169,7 +165,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="public/images/baner-right-image-03.jpg">
+                                        <img src={{asset("/images/baner-right-image-03.jpg")}}>
                                     </div>
                                 </div>
                             </div>
@@ -189,7 +185,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="pubic/images/baner-right-image-04.jpg">
+                                        <img src={{asset("/images/baner-right-image-04.jpg")}}>
                                     </div>
                                 </div>
                             </div>
@@ -227,7 +223,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/men-01.jpg" alt="">
+                                    <img src={{asset("/images/men-01.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
@@ -250,7 +246,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/men-02.jpg" alt="">
+                                    <img src={{asset("/images/men-02.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Air Force 1 X</h4>
@@ -273,7 +269,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/men-03.jpg" alt="">
+                                    <img src={{asset("/images/men-03.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Love Nana ‘20</h4>
@@ -296,7 +292,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/men-01.jpg" alt="">
+                                    <img src={{asset("/images/men-01.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
@@ -344,7 +340,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/women-01.jpg" alt="">
+                                    <img src={{asset("/images/women-01.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>New Green Jacket</h4>
@@ -367,7 +363,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/women-02.jpg" alt="">
+                                    <img src={{asset("/images/women-02.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Dress</h4>
@@ -390,7 +386,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/women-03.jpg" alt="">
+                                    <img src={{asset("/images/women-03.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Spring Collection</h4>
@@ -413,7 +409,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/women-01.jpg" alt="">
+                                    <img src={{asset("/images/women-01.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
@@ -461,7 +457,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/kid-01.jpg" alt="">
+                                    <img src={{asset("/images/kid-01.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>School Collection</h4>
@@ -484,7 +480,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="pubic/images/kid-02.jpg" alt="">
+                                    <img src={{asset("/images/kid-02.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Summer Cap</h4>
@@ -507,7 +503,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/kid-03.jpg" alt="">
+                                    <img src={{asset("/images/kid-03.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Kid</h4>
@@ -530,7 +526,7 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="public/images/kid-01.jpg" alt="">
+                                    <img src={{asset("/images/kid-01.jpg")}} alt="">
                                 </div>
                                 <div class="down-content">
                                     <h4>Classic Spring</h4>
@@ -581,12 +577,12 @@ https://templatemo.com/tm-571-hexashop
                             </div>
                             <div class="col-lg-6">
                                 <div class="first-image">
-                                    <img src="public/images/explore-image-01.jpg" alt="">
+                                    <img src={{asset("/images/explore-image-01.jpg")}} alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="second-image">
-                                    <img src="public/images/explore-image-02.jpg" alt="">
+                                    <img src={{asset("/images/explore-image-02.jpg")}} alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -625,7 +621,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="public/images/instagram-01.jpg" alt="">
+                        <img src={{asset("/images/instagram-01.jpg")}} alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -636,7 +632,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="public/images/instagram-02.jpg" alt="">
+                        <img src={{asset("/images/instagram-02.jpg")}} alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -647,7 +643,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="public/images/instagram-03.jpg" alt="">
+                        <img src={{asset("/images/instagram-03.jpg")}} alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -658,7 +654,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="public/images/instagram-04.jpg" alt="">
+                        <img src={{asset("/images/instagram-04.jpg")}} alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -669,7 +665,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="public/images/instagram-05.jpg" alt="">
+                        <img src={{asset("/images/instagram-05.jpg")}} alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -680,7 +676,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="public/images/instagram-06.jpg" alt="">
+                        <img src={{asset("/images/instagram-06.jpg")}} alt="">
                     </div>
                 </div>
             </div>
@@ -747,7 +743,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-3">
                     <div class="first-item">
                         <div class="logo">
-                            <img src="public/images/white-logo.png" alt="hexashop ecommerce templatemo">
+                            <img src={{asset("/images/white-logo.png")}} alt="hexashop ecommerce templatemo">
                         </div>
                         <ul>
                             <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
@@ -803,26 +799,26 @@ https://templatemo.com/tm-571-hexashop
     
 
     <!-- jQuery -->
-    <script src="public/js/jquery-2.1.0.min.js"></script>
+    <script src="js/jquery-2.1.0.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="public/js/popper.js"></script>
-    <script src="public/js/bootstrap.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugins -->
-    <script src="public/js/owl-carousel.js"></script>
-    <script src="public/js/accordions.js"></script>
-    <script src="public/js/datepicker.js"></script>
-    <script src="public/js/scrollreveal.min.js"></script>
-    <script src="public/js/waypoints.min.js"></script>
-    <script src="publc/js/jquery.counterup.min.js"></script>
-    <script src="public/js/imgfix.min.js"></script> 
-    <script src="public/js/slick.js"></script> 
-    <script src="public/js/lightbox.js"></script> 
-    <script src="public/js/isotope.js"></script> 
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/accordions.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imgfix.min.js"></script> 
+    <script src="js/slick.js"></script> 
+    <script src="js/lightbox.js"></script> 
+    <script src="js/isotope.js"></script> 
     
     <!-- Global Init -->
-    <script src="public/js/custom.js"></script>
+    <script src="js/custom.js"></script>
 
     <script>
 
